@@ -20,14 +20,6 @@ nav {
     padding: 10px 0;    
     align-items: center;
     flex-wrap: wrap;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 64px;
-=======
-/*     background-color: red; */
-=======
-    background-color: red;
->>>>>>> efc23197d06a6202c64a16001fced60ef1ea1b58
 }
 
 nav .logo-text {
@@ -53,14 +45,13 @@ nav .logo-text h1 span {
 
 nav .logo-text img {
     height: 5em;
->>>>>>> 80afffa812ad5e13cb801e739a887c9cb6bd21fc
 }
 
 nav ul {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 600px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -76,49 +67,47 @@ nav ul li a {
     font-weight: 500
 }
 
-nav img {
-    height: 100%;
-    width: auto;
-}
-
 header {
+    /* height: 100vh; */
     background-color: rgb(213, 209, 204);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px 40px;
     flex-wrap: wrap;
 }
 
 header img {
-    width: 100%;
-
+    width: 60%;
+    height: 90vh;
 }
 
 .banner-description {
+    margin: 0 24px;
     color: rgb(60, 60, 60);
-    margin: 30px 16px;
+    margin: 15px 0;
 }
 
 .banner-description h1 {
-    font-size: 40px;
+    font-size: 75px;
     font-weight: 800;
     padding: 25px 0;
 }
 
 .banner-description h2 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 200;
     padding: 25px 0;
     letter-spacing: 3px;
 }
 
 .banner-description button {
-    width: 100%;
+    width: 90%;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     border: solid rgb(60, 60, 60) 1px;
     transition: all 0.2s linear;
@@ -130,11 +119,11 @@ header img {
 }
 
 section {
-    /* display: flex; */
+    display: flex;
     margin: 20px 0;
 }
 
-/* .first-part-black-guy {
+.first-part-black-guy {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -153,9 +142,10 @@ section {
     font-size: 27px;
     letter-spacing: 1px;
     opacity: 0.7;
-} */
+}
 
 .second-part-right-side {
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -168,25 +158,25 @@ section {
 
 .sidebox {
     display: flex;
-    flex-flow: column wrap;
-
+    align-items: center;
 }
 
 .sidebox img {
-    width: auto;
-    height: 170px;
+    width: 35%;
+    height: auto;
 }
 
 .sidebox div {
+    margin-left: 30px;
     line-height: 40px;
 }
 
 .sidebox div h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .sidebox p {
-    font-size: 15px;
+    font-size: 20px;
     opacity: 0.7;
 }
 
@@ -214,8 +204,19 @@ section {
         flex-wrap: wrap;
 
     }
+
+    .first-part-black-guy {
+        width: 100%;
+        line-height: 60px;
+        margin: 0;
+    }
+
+    .first-part-black-guy h1 {
+        margin-top: 10px;
+    }
     
     .second-part-right-side {
+        width: 100%;
         margin-top: 40px;
     }
 }
