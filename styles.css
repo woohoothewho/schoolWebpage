@@ -20,7 +20,7 @@ nav {
     padding: 10px 0;    
     align-items: center;
     flex-wrap: wrap;
-/*     background-color: red; */
+    background-color: red;
 }
 
 nav .logo-text {
