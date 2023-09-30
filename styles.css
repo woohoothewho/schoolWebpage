@@ -21,9 +21,13 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 64px;
 =======
 /*     background-color: red; */
+=======
+    background-color: red;
+>>>>>>> efc23197d06a6202c64a16001fced60ef1ea1b58
 }
 
 nav .logo-text {
