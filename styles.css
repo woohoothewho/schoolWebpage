@@ -20,7 +20,36 @@ nav {
     padding: 10px 0;    
     align-items: center;
     flex-wrap: wrap;
+<<<<<<< HEAD
     height: 64px;
+=======
+/*     background-color: red; */
+}
+
+nav .logo-text {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+nav .logo-text h1 {
+    text-transform: uppercase;
+    color: rgb(60, 60, 60);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+nav .logo-text h1 span {
+    color: rgb(122, 119, 119);
+    font-weight: 100;
+
+}
+
+nav .logo-text img {
+    height: 5em;
+>>>>>>> 80afffa812ad5e13cb801e739a887c9cb6bd21fc
 }
 
 nav ul {
